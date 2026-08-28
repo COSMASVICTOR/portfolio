@@ -212,42 +212,17 @@
 
   /* ── ABOUT ── */
   .about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: start;
+    display: block;
+    max-width: 680px;
   }
+ 
   .about-text p {
     color: var(--gray-600);
     line-height: 1.8;
     margin-bottom: 1rem;
   }
   .about-text p:last-child { margin-bottom: 0; }
-  .about-meta { display: flex; flex-direction: column; gap: 16px; }
-  .meta-card {
-    padding: 1rem 1.25rem;
-    border: 1px solid var(--gray-100);
-    border-radius: var(--radius);
-    background: var(--gray-50);
-  }
-  .meta-card-label {
-    font-size: 11px;
-    color: var(--gray-400);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    margin-bottom: 4px;
-  }
-  .meta-card-value {
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--black);
-  }
-  .meta-card-value a {
-    color: var(--accent);
-    text-decoration: none;
-  }
-  .meta-card-value a:hover { text-decoration: underline; }
-
+  
   /* ── SKILLS ── */
   .skills-grid {
     display: grid;
